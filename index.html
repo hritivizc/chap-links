@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chap by Shivani - Social Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a2a6c 0%, #2d4a8f 50%, #1a2a6c 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 30px;
+            padding: 50px 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 72px;
+            font-weight: bold;
+            color: #1a2a6c;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 32px;
+            color: #1a2a6c;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .description {
+            color: #888;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+        
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .social-button {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 25px;
+            border-radius: 15px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .social-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .youtube {
+            background: linear-gradient(135deg, #FF0000 0%, #cc0000 100%);
+            color: white;
+        }
+        
+        .youtube:hover {
+            border-color: #FF0000;
+            background: white;
+            color: #FF0000;
+        }
+        
+        .facebook {
+            background: linear-gradient(135deg, #1877F2 0%, #0d5cb5 100%);
+            color: white;
+        }
+        
+        .facebook:hover {
+            border-color: #1877F2;
+            background: white;
+            color: #1877F2;
+        }
+        
+        .instagram {
+            background: linear-gradient(135deg, #E4405F 0%, #C13584 50%, #833AB4 100%);
+            color: white;
+        }
+        
+        .instagram:hover {
+            border-color: #E4405F;
+            background: white;
+            color: #E4405F;
+        }
+        
+        .left-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .icon {
+            font-size: 28px;
+        }
+        
+        .text-content h3 {
+            font-size: 18px;
+            font-weight: 600;
+            text-align: left;
+        }
+        
+        .text-content p {
+            font-size: 13px;
+            opacity: 0.9;
+            text-align: left;
+        }
+        
+        .arrow {
+            font-size: 24px;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            color: #999;
+            font-size: 12px;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 40px 30px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            .logo {
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">छाप</div>
+        <h1>Chap by Shivani</h1>
+        <p class="subtitle">Connect with us on social media</p>
+        <p class="description">Welcome! Follow us to stay updated with our latest content, exclusive updates, and behind-the-scenes moments.</p>
+        
+        <div class="social-links">
+            <a href="https://youtube.com/@chhaapbyshivani?si=MFECJebxnuSlwXft" class="social-button youtube" target="_blank">
+                <div class="left-content">
+                    <span class="icon">▶</span>
+                    <div class="text-content">
+                        <h3>YouTube</h3>
+                        <p>@chhaapbyshivani</p>
+                    </div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            
+            <a href="https://www.facebook.com/share/17wFgYk3kx/" class="social-button facebook" target="_blank">
+                <div class="left-content">
+                    <span class="icon">f</span>
+                    <div class="text-content">
+                        <h3>Facebook</h3>
+                        <p>Chap by Shivani</p>
+                    </div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            
+            <a href="https://www.instagram.com/chhaap_shivani?igsh=MWx0OGc0NzI4eW5tNg==" class="social-button instagram" target="_blank">
+                <div class="left-content">
+                    <span class="icon">📷</span>
+                    <div class="text-content">
+                        <h3>Instagram</h3>
+                        <p>@chhaap_shivani</p>
+                    </div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+        
+        <div class="footer">
+            © 2026 Chap by Shivani. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
